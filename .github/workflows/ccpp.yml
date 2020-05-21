@@ -13,8 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make
-      run: make
     - name: bump version number
       run: make version
-      
+    - name: make
+      run: make
